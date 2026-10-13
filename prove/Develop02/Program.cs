@@ -54,6 +54,8 @@ else if (choice == "3")
 }
 
 
+
+
 else if (choice == "4")
 {
     Console.Write("Enter filename: ");
@@ -63,6 +65,8 @@ else if (choice == "4")
 
     Console.WriteLine("Journal loaded!");
 }
+
+
 
 else if (choice != "5")
 {

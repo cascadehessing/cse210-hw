@@ -11,13 +11,17 @@ public class Journal
         _entries.Add(newEntry);
     }
 
-    public void DisplayAll()
+    
+public void DisplayAll()
+{
+    Console.WriteLine($"Number of entries: {_entries.Count}");
+
+    foreach (Entry entry in _entries)
     {
-        foreach (Entry entry in _entries)
-        {
-            entry.Display();
-        }
+        entry.Display();
     }
+}
+
 
     public void SaveToFile(string filename)
     {
